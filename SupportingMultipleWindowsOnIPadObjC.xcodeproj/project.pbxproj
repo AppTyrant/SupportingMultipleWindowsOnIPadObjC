@@ -20,6 +20,8 @@
 		BAF3850E236A1398006640B0 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF38507236A1398006640B0 /* 2.jpg */; };
 		BAF3850F236A1398006640B0 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF38508236A1398006640B0 /* 3.jpg */; };
 		BAF38510236A1398006640B0 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF38509236A1398006640B0 /* 1.jpg */; };
+		BAF38514236A1448006640B0 /* PhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF38513236A1448006640B0 /* PhotoDetailViewController.m */; };
+		BAF38517236A1517006640B0 /* Models.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF38516236A1517006640B0 /* Models.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,10 @@
 		BAF38507236A1398006640B0 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		BAF38508236A1398006640B0 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		BAF38509236A1398006640B0 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		BAF38512236A1448006640B0 /* PhotoDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoDetailViewController.h; sourceTree = "<group>"; };
+		BAF38513236A1448006640B0 /* PhotoDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailViewController.m; sourceTree = "<group>"; };
+		BAF38515236A1517006640B0 /* Models.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Models.h; sourceTree = "<group>"; };
+		BAF38516236A1517006640B0 /* Models.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Models.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 				BAF384E9236A1277006640B0 /* SceneDelegate.h */,
 				BAF384EA236A1277006640B0 /* SceneDelegate.m */,
 				BAF38500236A136C006640B0 /* Main.storyboard */,
+				BAF38515236A1517006640B0 /* Models.h */,
+				BAF38516236A1517006640B0 /* Models.m */,
+				BAF38511236A142F006640B0 /* PhotoDetailViewController */,
 				BAF384FF236A1282006640B0 /* Supporting Files */,
 			);
 			path = SupportingMultipleWindowsOnIPadObjC;
@@ -106,6 +115,15 @@
 				BAF38509236A1398006640B0 /* 1.jpg */,
 			);
 			path = Photos;
+			sourceTree = "<group>";
+		};
+		BAF38511236A142F006640B0 /* PhotoDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BAF38512236A1448006640B0 /* PhotoDetailViewController.h */,
+				BAF38513236A1448006640B0 /* PhotoDetailViewController.m */,
+			);
+			name = PhotoDetailViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,7 +205,9 @@
 			files = (
 				BAF384E8236A1277006640B0 /* AppDelegate.m in Sources */,
 				BAF384F9236A1278006640B0 /* main.m in Sources */,
+				BAF38514236A1448006640B0 /* PhotoDetailViewController.m in Sources */,
 				BAF384EB236A1277006640B0 /* SceneDelegate.m in Sources */,
+				BAF38517236A1517006640B0 /* Models.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
