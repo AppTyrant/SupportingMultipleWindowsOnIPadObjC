@@ -15,6 +15,7 @@ extern NSString *const GalleryOpenDetailPath;
 extern NSString *const GalleryOpenDetailPhotoIdKey;
 
 +(Photo*)photWithName:(NSString*)name userActivity:(NSUserActivity*)userActivity;
++(Photo*)photWithName:(NSString*)name;
 
 @property (nonatomic,strong,readonly) NSString *name;
 @property (nonatomic,strong,readonly) NSUserActivity *openDetailUserActivity;
