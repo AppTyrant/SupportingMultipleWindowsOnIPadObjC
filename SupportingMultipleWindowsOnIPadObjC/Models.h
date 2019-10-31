@@ -10,31 +10,32 @@
 
 @interface Photo : NSObject
 
-extern NSString *const GalleryOpenDetailActivityType;
-extern NSString *const GalleryOpenDetailPath;
-extern NSString *const GalleryOpenDetailPhotoIdKey;
+extern NSString *_Nonnull const GalleryOpenDetailActivityType;
+extern NSString *_Nonnull const GalleryOpenDetailPath;
+extern NSString *_Nonnull const GalleryOpenDetailPhotoIdKey;
 
-+(Photo*)photWithName:(NSString*)name userActivity:(NSUserActivity*)userActivity;
-+(Photo*)photWithName:(NSString*)name;
++(nonnull Photo*)photWithName:(nonnull NSString*)name;
+-(nonnull instancetype)initWithName:(nonnull  NSString*)name NS_DESIGNATED_INITIALIZER;
+-(nonnull instancetype)init NS_UNAVAILABLE;
 
-@property (nonatomic,strong,readonly) NSString *name;
-@property (nonatomic,strong,readonly) NSUserActivity *openDetailUserActivity;
+@property (nonnull,nonatomic,strong,readonly) NSString *name;
+@property (nonnull,nonatomic,strong,readonly) NSUserActivity *openDetailUserActivity;
 
 @end
 
 @interface PhotoSection : NSObject
 
-+(PhotoSection*)sectionWithName:(NSString*)name photos:(NSArray<Photo*>*)photos;
++(nonnull PhotoSection*)sectionWithName:(nonnull NSString*)name photos:(nonnull NSArray<Photo*>*)photos;
 
-@property (nonatomic,strong,readonly) NSString *name;
-@property (nonatomic,strong,readonly) NSArray <Photo*>*photos;
+@property (nonnull,nonatomic,strong,readonly) NSString *name;
+@property (nonnull,nonatomic,strong,readonly) NSArray <Photo*>*photos;
 
 @end
 
 @interface PhotoManager : NSObject
 
-+(PhotoManager*)sharedManager;
++(nonnull PhotoManager*)sharedManager;
 
-@property (nonatomic,strong,readonly) NSArray<PhotoSection*>*sections;
+@property (nonnull,nonatomic,strong,readonly) NSArray<PhotoSection*>*sections;
 
 @end

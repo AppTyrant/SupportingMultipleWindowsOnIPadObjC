@@ -16,34 +16,26 @@ NSString *const GalleryOpenDetailPhotoIdKey = @"photoId";
 
 +(Photo*)photWithName:(NSString*)name
 {
-    return [[self alloc]initWithName:name userActivity:nil];
+    return [[self alloc]initWithName:name];
 }
 
-+(Photo*)photWithName:(NSString*)name userActivity:(NSUserActivity*)userActivity
-{
-    return [[self alloc]initWithName:name userActivity:userActivity];
-}
-
--(instancetype)initWithName:(NSString*)name userActivity:(NSUserActivity*)userActivity
+-(instancetype)initWithName:(NSString*)name
 {
     self = [super init];
     if (self)
     {
         _name = name;
-        if (userActivity == nil)
-        {
-            userActivity = [[NSUserActivity alloc]initWithActivityType:GalleryOpenDetailActivityType];
-            userActivity.title = GalleryOpenDetailPath;
-            userActivity.userInfo = @{GalleryOpenDetailPhotoIdKey:name};
-        }
-        _openDetailUserActivity = userActivity;
     }
     return self;
 }
 
--(instancetype)initWithName:(NSString*)name
+-(NSUserActivity*)openDetailUserActivity
 {
-    return [self initWithName:name userActivity:nil];
+    NSString *name = self.name;
+    NSUserActivity *userActivity = [[NSUserActivity alloc]initWithActivityType:GalleryOpenDetailActivityType];
+    userActivity.title = GalleryOpenDetailPath;
+    userActivity.userInfo = @{GalleryOpenDetailPhotoIdKey:name};
+    return userActivity;
 }
 
 @end
