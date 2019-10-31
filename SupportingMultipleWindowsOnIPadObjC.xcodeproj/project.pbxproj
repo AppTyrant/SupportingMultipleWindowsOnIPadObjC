@@ -12,7 +12,6 @@
 		BAF384F3236A1278006640B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF384F2236A1278006640B0 /* Assets.xcassets */; };
 		BAF384F6236A1278006640B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF384F4236A1278006640B0 /* LaunchScreen.storyboard */; };
 		BAF384F9236A1278006640B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF384F8236A1278006640B0 /* main.m */; };
-		BAF38501236A136C006640B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF38500236A136C006640B0 /* Main.storyboard */; };
 		BAF3850A236A1398006640B0 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF38503236A1398006640B0 /* 4.jpg */; };
 		BAF3850B236A1398006640B0 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF38504236A1398006640B0 /* 5.jpg */; };
 		BAF3850C236A1398006640B0 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAF38505236A1398006640B0 /* 7.jpg */; };
@@ -24,6 +23,7 @@
 		BAF38517236A1517006640B0 /* Models.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF38516236A1517006640B0 /* Models.m */; };
 		BAF3851B236A1F79006640B0 /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF3851A236A1F79006640B0 /* GalleryViewController.m */; };
 		BAF3851D236A23DB006640B0 /* GalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF3851C236A23DB006640B0 /* GalleryCollectionViewCell.xib */; };
+		BAF3851F236A2C77006640B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF3851E236A2C77006640B0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,6 @@
 		BAF384F5236A1278006640B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAF384F7236A1278006640B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAF384F8236A1278006640B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BAF38500236A136C006640B0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BAF38503236A1398006640B0 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		BAF38504236A1398006640B0 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 		BAF38505236A1398006640B0 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		BAF38519236A1F79006640B0 /* GalleryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
 		BAF3851A236A1F79006640B0 /* GalleryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
 		BAF3851C236A23DB006640B0 /* GalleryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryCollectionViewCell.xib; sourceTree = "<group>"; };
+		BAF3851E236A2C77006640B0 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +87,9 @@
 				BAF384E7236A1277006640B0 /* AppDelegate.m */,
 				BAF384E9236A1277006640B0 /* SceneDelegate.h */,
 				BAF384EA236A1277006640B0 /* SceneDelegate.m */,
-				BAF38500236A136C006640B0 /* Main.storyboard */,
 				BAF38515236A1517006640B0 /* Models.h */,
 				BAF38516236A1517006640B0 /* Models.m */,
+				BAF3851E236A2C77006640B0 /* Main.storyboard */,
 				BAF38518236A1F60006640B0 /* GalleryViewController */,
 				BAF38511236A142F006640B0 /* PhotoDetailViewController */,
 				BAF384FF236A1282006640B0 /* Supporting Files */,
@@ -204,7 +204,7 @@
 				BAF3850D236A1398006640B0 /* 6.jpg in Resources */,
 				BAF3850A236A1398006640B0 /* 4.jpg in Resources */,
 				BAF3850B236A1398006640B0 /* 5.jpg in Resources */,
-				BAF38501236A136C006640B0 /* Main.storyboard in Resources */,
+				BAF3851F236A2C77006640B0 /* Main.storyboard in Resources */,
 				BAF3850C236A1398006640B0 /* 7.jpg in Resources */,
 				BAF384F6236A1278006640B0 /* LaunchScreen.storyboard in Resources */,
 				BAF3850E236A1398006640B0 /* 2.jpg in Resources */,
