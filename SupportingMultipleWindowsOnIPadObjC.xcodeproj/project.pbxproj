@@ -27,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA19BA47236B266E0021E57B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BAF384E3236A1277006640B0 /* SupportingMultipleWindowsOnIPadObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupportingMultipleWindowsOnIPadObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF384E6236A1277006640B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BAF384E7236A1277006640B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 		BAF384DA236A1277006640B0 = {
 			isa = PBXGroup;
 			children = (
+				BA19BA47236B266E0021E57B /* README.md */,
 				BAF384E5236A1277006640B0 /* SupportingMultipleWindowsOnIPadObjC */,
 				BAF384E4236A1277006640B0 /* Products */,
 			);
